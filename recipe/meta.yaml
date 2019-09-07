@@ -1,5 +1,5 @@
 {% set name = "beniget" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 509a8f67e397f209ce6f3f97dc78a15c4d0e8798b194b4122bec82e44bb26bf2
+  sha256: 4495fb8ef0e99f9291c751856e3cc0695115e7936acc54717a3f620ab331b247
 
 build:
   number: 0
