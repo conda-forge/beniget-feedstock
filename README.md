@@ -5,7 +5,7 @@ Home: https://github.com/serge-sans-paille/beniget/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Extract semantic information about static Python code
 
