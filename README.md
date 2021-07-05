@@ -1,7 +1,7 @@
 About beniget
 =============
 
-Home: https://github.com/serge-sans-paille/beniget/
+Home: https://github.com/serge-sans-paille/beniget
 
 Package license: BSD-3-Clause
 
