@@ -19,7 +19,7 @@ requirements:
     - pip
     - python {{ python_min }}
   run:
-    - gast >=0.5.0,<0.6.0
+    - gast >=0.5.4,<0.7.0
     - python >={{ python_min }}
 
 test:
