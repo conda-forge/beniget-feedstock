@@ -16,18 +16,19 @@ build:
 
 requirements:
   host:
-    - pip
     - python {{ python_min }}
+    - pip
+    - setuptools
   run:
-    - gast >=0.5.4,<0.7.0
     - python >={{ python_min }}
+    - gast >=0.5.4,<0.7.0
 
 test:
   imports:
     - beniget
   requires:
-    - pip
     - python {{ python_min }}
+    - pip
   commands:
     - pip check
 
