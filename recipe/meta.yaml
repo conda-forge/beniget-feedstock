@@ -21,7 +21,7 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - gast >=0.5.4,<0.7.0
+    - gast >=0.7.0
 
 test:
   imports:
